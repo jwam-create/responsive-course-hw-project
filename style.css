@@ -37,13 +37,17 @@ p {
 	line-height: 1.5;
 	text-align: center;
 }
-.section-title {
-	text-align: left;
-}
+.section-title,
 .section-paragraph {
-	text-align: left;
+	text-align: center;
 }
 
+.project-link {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 200px;
+}
 .primary-link {
 	border-radius: 4px;
 	padding: 20px 15px;
@@ -102,27 +106,22 @@ p {
 	h2 {
 		font-size: 20px;
 	}
-	h3 {
-		font-size: 18px;
-	}
+	h3,
+	.section-paragraph,
 	p {
 		font-size: 18px;
 	}
+
 	.email-link {
 		font-size: smaller;
 	}
 
 	.section-title {
-		text-align: center;
 		font-size: 32px;
 	}
-	.section-paragraph {
-		text-align: center;
-		font-size: 18px;
-	}
+
 	.project-link {
-		display: block;
-		text-align: center;
-		margin: 0 30px;
+		margin: 0 50px;
+		max-width: none;
 	}
 }
