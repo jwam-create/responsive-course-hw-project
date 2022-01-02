@@ -16,7 +16,7 @@ h3 {
 }
 
 h1 {
-	font-size: 96px;
+	font-size: 88px;
 }
 
 h2 {
@@ -35,6 +35,12 @@ p {
 	font-size: 18px;
 	line-height: 1.5;
 	text-align: center;
+}
+.section-title {
+	text-align: left;
+}
+.section-paragraph {
+	text-align: left;
 }
 
 .primary-link {
@@ -80,17 +86,38 @@ p {
 }
 
 @media (max-width: 576px) {
-	h1 {
+	.about-page-header {
 		font-size: 52px;
+	}
+	.homepage-header {
+		font-size: 40px;
 	}
 	h2 {
 		font-size: 20px;
 	}
-	h3,
+	h3 {
+		font-size: 18px;
+	}
 	p {
-		font-size: smaller;
+		font-size: 18px;
 	}
 	.email-link {
 		font-size: smaller;
+	}
+	.img-hide {
+		display: none;
+	}
+	.section-title {
+		text-align: center;
+		font-size: 32px;
+	}
+	.section-paragraph {
+		text-align: center;
+		font-size: 18px;
+	}
+	.project-link {
+		display: block;
+		text-align: center;
+		margin: 0 30px;
 	}
 }
