@@ -53,12 +53,19 @@ p {
 	box-shadow: var(--box-shadow);
 	color: white;
 }
+.primary-link:hover {
+	color: white;
+}
 .secondary-link {
 	border-radius: 4px;
 	text-decoration: none;
 	text-transform: capitalize;
 	padding: 20px 15px;
+	color: var(--primary-color);
 	border: 1px solid var(--primary-color);
+}
+.secondary-link:hover {
+	color: var(--primary-color);
 }
 
 .navigation-links {
