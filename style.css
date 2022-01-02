@@ -69,8 +69,7 @@ p {
 }
 
 .email-link {
-	display: flex;
-	justify-content: center;
+	display: inline;
 	color: var(--primary-color);
 	font-size: 28px;
 	text-decoration: none;
@@ -78,4 +77,20 @@ p {
 
 .email-link:hover {
 	text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+	h1 {
+		font-size: 52px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	h3,
+	p {
+		font-size: smaller;
+	}
+	.email-link {
+		font-size: smaller;
+	}
 }
